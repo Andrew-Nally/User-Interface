@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	border: solid black 2px;
+}
+nav{
+	text-align:right;
+	background:aqua;
+	position:fixed;
+	width:100%;
+	z-index: 3;
+
+}
+a{
+	padding:0 5%;
+	display:inline-block;
+	color:limegreen;
+	font-family: 'Concert One', cursive;
+	margin-bottom: 1%;
+}
+a:hover{
+	color:orange;
+}
+.main{
+	display:inline-block;
+	position: relative;;
+	height:60%;
+	width:40%;
+	margin-bottom: 10%;
+	margin-top:5%;
+}
+.logo{
+	display: inline-block;
+
+}
+
+h1{
+	display:inline-block;
+	width:30%;
+	margin-left: 5%;
+	font-size:5em;
+	text-align:center;
+	margin-top: 50px;
+	position:relative;
+	bottom:150px;
+}
+h1:hover{
+	color:limegreen;
+
+}
+button{
+	height:40px;
+	width:200px;
+	font-weight:bold;
+	display:inline-block;
+	position:relative;
+	right:280px;
+	padding: 0 10px 0 10px;
+	font-size:20px;
+	bottom:75px;
+}
+button:hover{
+	background-color:aqua;
+	color:limegreen;
+}
+hr .one{
+	position:relative;
+	top:50px;
+}
+.two-columns{
+	display:inline-block;
+	width:37%;
+	margin:5%;
+	text-align: justify;
+}
+.two-columns:hover{
+	color:orange;
+}
+.three-columns{
+	display:inline-block;
+	width: 20%;
+	margin: 5%;
+	text-align:justify;
+}
+.three-columns:hover{
+	color:orange;
+}
+.middle-img{
+	margin:0 5%;
+	width:90%;
+}
+.contact{
+	list-style: none;
+	text-align:justify;
+	margin:5%;
+
+}
+.contact:hover{
+	color:orange;
+}
+.footer{
+	text-align:center;
+	margin-bottom:100px;
+}
+.footer:hover{
+	color:orange;
+}
